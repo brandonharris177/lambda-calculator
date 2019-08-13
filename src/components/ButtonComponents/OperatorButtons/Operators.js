@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 //import any components needed
 
@@ -6,9 +6,9 @@ import React from "react";
 
 import {operators} from "../../../data"
 
-const Operators = () => {
+export const Operators = () => {
   // STEP 2 - add the imported data to state
-  const [operatorsState, setOperatorsState] = useState(operators);
+  const [operatorState, setOperatorState] = useState(operators);
 
   return (
     <div>

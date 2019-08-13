@@ -6,7 +6,7 @@ import React, {useState} from "react";
 
 import { specials } from '../../../data';
 
-const Specials = () => {
+export const Specials = () => {
   // STEP 2 - add the imported data to state
   const [specialState, setSpecialState] = useState(specials);
 

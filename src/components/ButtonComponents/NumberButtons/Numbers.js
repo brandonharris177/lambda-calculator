@@ -6,7 +6,7 @@ import React, {useState} from "react";
 
 import { numbers } from "../../../data"
 
-const Numbers = () => {
+export const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numberState, setNumberState] = useState(numbers);
 

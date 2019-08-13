@@ -1,10 +1,6 @@
 import React, {useState} from "react";
 import "./App.css";
-import { numbers } from './data.js';
-import { operators } from './data.js';
-import { specials } from './data.js';
 
-const [numberState, setNumberState] = useState(numbers);
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
 
